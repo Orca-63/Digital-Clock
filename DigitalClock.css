@@ -1,0 +1,26 @@
+body {
+    background: linear-gradient(to right, rgb(20, 19, 19), rgb(35, 34, 34), rgb(61, 60, 60), rgb(102, 100, 100));
+    font-weight: bold;
+    color: black;
+
+}
+
+.center {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#clock {
+    font-size: 40px;
+    background: linear-gradient(to right, rgb(239, 157, 6), rgb(241, 177, 59), rgb(239, 189, 96), rgb(243, 200, 121));
+
+    text-align: center;
+    height: 50px;
+    width: 250px;
+    padding: 20px 50px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
